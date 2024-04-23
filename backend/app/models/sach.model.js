@@ -10,6 +10,7 @@ const sachSchema = new Schema({
     namxuatban: Number,
     manxb: String,
     tacgia: String,
+    image: String,
 });
     
 

@@ -1,6 +1,6 @@
 <template>
     <div v-if="contact" class="page mt-5">
-        <h4>Hiệu chỉnh Liên hệ</h4>
+        <h4>Hiệu chỉnh</h4>
         <ContactForm
             :contact="contact"
             @submit:contact="updateContact"

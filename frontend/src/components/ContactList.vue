@@ -31,6 +31,7 @@ export default {
     <thead>
       <tr>
         <th scope="col">#</th>
+        <th scope="col">Hình Ảnh</th>
         <th scope="col">Tên Sách</th>
         <th scope="col">Tác giả</th>
         <th scope="col">Số lượng</th> 
@@ -47,6 +48,7 @@ export default {
         >
         
             <th scope="row" >{{ index +1 }}</th>
+            <td><img :src="contact.image" alt="" height="100" width="60"></td>
             <td>{{ contact.tensach }} </td>
             <td>{{ contact.tacgia }}</td>
             <td>{{ contact.soquyen }}</td>

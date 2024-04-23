@@ -1,6 +1,6 @@
 <template>
     <div v-if="check_book" class="page">
-        <h4>Hiệu chỉnh Liên hệ</h4>
+        <h4>Thêm sách</h4>
         <ContactForm
             :book = "book"
             :muonsach_valua="muonsach"
